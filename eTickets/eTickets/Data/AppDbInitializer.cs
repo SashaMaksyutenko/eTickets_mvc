@@ -18,7 +18,7 @@ namespace eTickets.Data
                 var context=serviceScope.ServiceProvider.GetService<AppDbContext>();
                 context.Database.EnsureCreated();
                 //adding cinema
-                if(context.Cinemas.Any())
+                if(!context.Cinemas.Any())
                 {
                     context.Cinemas.AddRange(new List<Cinema>()
                     {
@@ -56,7 +56,7 @@ namespace eTickets.Data
                 context.SaveChanges();
             }
                 //adding actors
-                if (context.Actors.Any())
+                if (!context.Actors.Any())
                 {
                     context.Actors.AddRange(new List<Actor>()
                     {
@@ -95,7 +95,7 @@ namespace eTickets.Data
                     context.SaveChanges();
                 }
                 //adding producers
-                if (context.Producers.Any())
+                if (!context.Producers.Any())
                 {
                     context.Producers.AddRange(new List<Producer>()
                     {
@@ -134,7 +134,7 @@ namespace eTickets.Data
                     context.SaveChanges();
                 }
                 //adding movies
-                if (context.Movies.Any())
+                if (!context.Movies.Any())
                 {
                     context.Movies.AddRange(new List<Movie>()
                     {
@@ -214,7 +214,7 @@ namespace eTickets.Data
                     context.SaveChanges();
                 }
                 //adding movies & actors
-                if (context.Actors_Movies.Any())
+                if (!context.Actors_Movies.Any())
                 {
                     context.Actors_Movies.AddRange(new List<Actor_Movie>()
                     {
