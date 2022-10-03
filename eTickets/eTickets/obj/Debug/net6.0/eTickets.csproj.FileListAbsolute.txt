@@ -1,3 +1,4 @@
+\\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\web.config
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\appsettings.Development.json
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\appsettings.json
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\eTickets.staticwebassets.runtime.json

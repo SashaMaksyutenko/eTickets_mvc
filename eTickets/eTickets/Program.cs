@@ -11,6 +11,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using eTickets.Data.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -21,6 +23,8 @@ builder.Services.AddDbContext<AppDbContext>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+//services configuration
+builder.Services.AddScoped<IActorsService, ActorsService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
