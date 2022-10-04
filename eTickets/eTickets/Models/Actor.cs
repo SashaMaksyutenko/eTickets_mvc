@@ -1,8 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
-
+﻿using eTickets.Data.Base;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Threading.Tasks;
 namespace eTickets.Models
 {
-    public class Actor
+    public class Actor:IEntityBase
     {
         [Key]
         public int Id { get; set; }
@@ -18,6 +22,6 @@ namespace eTickets.Models
 
         public string Bio { get; set; } 
         //relationships
-        public List<Actor_Movie> Actors_Movies { get; set; }
+        public List<Actor_Movie>? Actors_Movies { get; set; }
     }
 }
