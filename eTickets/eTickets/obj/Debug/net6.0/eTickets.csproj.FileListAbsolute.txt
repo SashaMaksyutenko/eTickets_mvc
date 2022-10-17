@@ -8,6 +8,9 @@
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\eTickets.dll
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\eTickets.pdb
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Humanizer.dll
+\\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+\\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+\\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -15,6 +18,9 @@
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+\\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+\\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+\\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 \\Mac\Home\Documents\C#\eTickets_mvc\eTickets\eTickets\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll

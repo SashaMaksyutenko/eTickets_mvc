@@ -26,8 +26,8 @@
                         <td class="allign-middle">@item.Amount</td>
                         <td class="allign-middle">@item.Movie.Name</td>
                         <td class="allign-middle">@item.Movie.Price.ToString("c")</td>
-                        <td class="allign-middle">@((item.Amount*item.Movie.Price).ToString("c"))</td>
-                        <td class="allig-middle">
+                            <td class="align-middle">@((item.Amount * item.Movie.Price).ToString("c"))</td>
+                            <td class="allig-middle">
                                 <a class="text-danger" asp-controller="Orders" asp-action="RemoveItemFromShoppingCart"
                                 asp-route-id="@item.Movie.Id"><i class="bi bi-cart-dash"></i>
                                 </a>
@@ -71,12 +71,7 @@
         
 @section Scripts{
         <script src="https://www.paypalobjects.com/api/checkout.js"></script>
-        <!--\\
-            you need to add the payment request in 
-            but it appears to be working 
-            you need to add the payment request thats why it a long time loading
-            as it has recieved the payment request 
-        //-->
+        
         <script>
          
             let _total = @Html.Raw(Model.ShoppingCartTotal);
